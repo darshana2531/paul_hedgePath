@@ -1,0 +1,12 @@
+.site-header {
+    .navbar {
+       // background-color: #af90a7 !important;
+       background-color:  #45526e!important;
+        .navbar-collapse {
+            justify-content: flex-end;
+        }
+        a.nav-link {
+            color: white;
+        }
+    }
+}

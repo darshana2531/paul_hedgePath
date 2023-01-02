@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { HomeComponent } from './home.component';
 import { RouterModule, Routes } from '@angular/router';
-
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 const routes: Routes = [
   {
     path: '',
@@ -18,7 +18,8 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    NgbAccordionModule
+  
+    NgbCarouselModule
   ]
 })
 export class HomeModule { }

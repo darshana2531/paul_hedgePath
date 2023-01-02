@@ -1,0 +1,31 @@
+<div class="site-header">
+
+    <nav class="navbar  navbar-light  bg-light navbar-expand-sm">
+
+        <span class="site-logo-image">
+            <img src="assets/Website-Logos-02-2.png">
+        </span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            (click)="toggleNavbarCollapsing()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent" [class.collapse]="navbarCollapsed">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" >About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</div>
